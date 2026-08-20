@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Haniel Reena D R — AI & ML Research Portfolio
 
-# Run and deploy your AI Studio app
+Live Portfolio: **[https://hanielreena20.github.io/haniel-reena-d-r---portfolio/](https://hanielreena20.github.io/haniel-reena-d-r---portfolio/)**
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/c4338710-4c2d-48cf-84eb-ba6f1c74619e
+Personal portfolio of **Haniel Reena D R**, Computer Science Engineering student and applied AI researcher specializing in Deep Learning, Computer Vision, Medical Imaging, Multimodal AI, and NLP.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Framework**: React 19 + TypeScript + Vite
+- **Styling**: Tailwind CSS + Lucide Icons + Motion
+- **Hosting**: GitHub Pages via GitHub Actions / `gh-pages`
 
+## Development
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
