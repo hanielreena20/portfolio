@@ -1,6 +1,6 @@
 # Haniel Reena D R — AI & ML Research Portfolio
 
-Live Portfolio: **[https://hanielreena20.github.io/haniel-reena-d-r---portfolio/](https://hanielreena20.github.io/haniel-reena-d-r---portfolio/)**
+Live Portfolio: **[https://hanielreena20.github.io/portfolio/](https://hanielreena20.github.io/portfolio/)**
 
 ## About
 
