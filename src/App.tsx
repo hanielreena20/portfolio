@@ -18,6 +18,10 @@ export default function App() {
 
   // IntersectionObserver to track currently visible section for navbar highlighting
   useEffect(() => {
+    if (typeof window === 'undefined' || !('IntersectionObserver' in window)) {
+      return;
+    }
+
     const sectionIds = [
       'hero',
       'about',
@@ -29,7 +33,7 @@ export default function App() {
       'contact',
     ];
 
-    const observer = new IntersectionObserver(
+    const observer = new window.IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
